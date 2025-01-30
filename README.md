@@ -32,6 +32,7 @@ model = models.Sequential()
 model.add(layers.Input(shape=(784,)))
 model.add(layers.Dense(512, activation='relu'))
 model.add(layers.Dense(10, activation='softmax'))
+```
 
 ## 🏋️ Training Process
 
@@ -48,5 +49,4 @@ The model was trained using the categorical cross-entropy loss function and the 
 - **Test Accuracy:** ~98.04%
 
 ## 📈 Results
-
 The model achieved 98.04% accuracy on the test dataset, making it highly effective for recognizing handwritten digits.
